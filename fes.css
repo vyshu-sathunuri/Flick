@@ -1,0 +1,135 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'lato',sans-serif;
+}
+h3{
+  
+  font-size: 50px;
+  text-align: center;
+
+}
+.head p{
+  padding-left: 50px;
+  font-size: 25px;
+}
+.b{
+  
+  
+  font-size: 23px;
+}
+
+
+.pics{
+display: flex;
+max-width: 1200px;
+width: 100%;
+flex-wrap: wrap;
+justify-content: center;
+padding-left: 20px;
+
+
+
+ }
+ .im img{
+  display: inline;
+  width:100%;
+  background-image: cover;
+
+ }
+ 
+img {
+  width: 300px;
+  height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+   padding: 5px;
+   border-radius: 5%;
+}
+.container{
+    display: inline;
+    justify-content: right;
+    padding-right: 40px;
+   
+}
+.box{
+  background: black;
+  width: 270px;
+  height: 400px;
+  margin: 10px;
+  float: right;
+  border-radius: 15px;
+}
+.box h2{
+  text-align: center;
+  color: aliceblue;
+}
+.b {
+  color: aliceblue;
+  padding-left: 10px;
+}
+
+.green{
+  text-align: center;
+}
+.bu {
+  background-color: greenyellow;
+  
+}
+.button {
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  
+}
+h2{
+  font-size: 25px;
+  text-align: center;
+}
+.container1{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  background:black;
+  width:270px;
+  height: 270px;
+  margin: 10px;
+  border-radius: 15px;
+  
+}
+.card-image{
+  background-color: aliceblue;
+  height: 210px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.card-1{
+  background-image: url('festival.jpg');
+}
+.card-2{
+  background-image: url('birthday.jpg');
+}
+.card-3{
+  background-image: url('solo.jpg');
+}
+.card-4{
+  background-image: url('squad.jpg');
+}
+
+.card a{
+  text-align: center;
+  color: aliceblue;
+  display: block;
+  text-decoration: none;
+  
+}
